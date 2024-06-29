@@ -14,7 +14,7 @@ This repository is a template for implementing multi-modules in Kotlin Multiplat
 ```
 git clone git@github.com:Tatsumi0000/KMP-MultimoduleTemplate.git
 ```
-2. Copy your KMP project.
+2. Copy directory hoge to directory KMP project.
 3. Rename `package_name` and `hoge` folder name.
 4. Fix build.gradle.kts. (FIXME is written where corrections are needed)
 
