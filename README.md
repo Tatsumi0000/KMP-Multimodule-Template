@@ -1,4 +1,4 @@
-# KMP-MultimoduleTemplate
+# KMP-Multimodule-Template
 
 This repository is a template for implementing multi-modules in Kotlin Multiplatform(KMP).
 
@@ -13,7 +13,7 @@ This repository is a template for implementing multi-modules in Kotlin Multiplat
 1. Clone repository
 
 ```
-git clone git@github.com:Tatsumi0000/KMP-MultimoduleTemplate.git
+git clone git@github.com:Tatsumi0000/KMP-Multimodule-Template.git
 ```
 
 2. Copy directory hoge to directory KMP project.
@@ -40,3 +40,8 @@ kotlin {
 ```
 
 An example implementation can be found in [this repository](https://github.com/Tatsumi0000/nct-deck).
+
+
+## ☝ Points
+It appears that the directory name must contain commonMain.
+Class is recognized by the Android and iOS packages even though it does not contain commonMain, but not by commonMain(:composeApp).
