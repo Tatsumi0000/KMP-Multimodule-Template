@@ -43,5 +43,5 @@ An example implementation can be found in [this repository](https://github.com/T
 
 
 ## ☝ Points
-It appears that the directory name must contain commonMain.
-Class is recognized by the Android and iOS packages even though it does not contain commonMain, but not by commonMain(:composeApp).
+It appears that the directory name must contain `commonMain`.
+Class is recognized by the `androidMain` and `iosMain` packages even though it does not contain `commonMain`, but not by `commonMain(:composeApp)`.
