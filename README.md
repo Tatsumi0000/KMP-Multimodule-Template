@@ -1,6 +1,6 @@
 # KMP-Multimodule-Template
 
-This repository is a template for implementing multi-modules in Kotlin Multiplatform(KMP).
+This repository is a template for implementing multimodule in Kotlin Multiplatform(KMP).
 
 | tool                    | version |
 | ----------------------- | ------- |
